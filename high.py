@@ -3,6 +3,7 @@ from discord.ext import commands
 import re
 from flask import Flask, render_template
 from threading import Thread
+import os
 app = Flask('')
 @app.route('/')
 def home():
